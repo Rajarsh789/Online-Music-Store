@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(bc1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    
+}
+ header .music{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px;
+    float: left;
+}
+span{
+    font-size: 35px;
+    color: crimson;
+    font-weight: 700;
+}
+header .menu{ 
+    float: right;
+    padding: 20px;
+
+}
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: 700;
+    padding: 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+header ul li a:hover{
+    color: rgb(122, 81, 73);
+}
+
+
+
+.content{
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.content p{
+    font-size: 15px;
+    color: rgb(255, 131, 109);
+}
+
+.btn .col1{
+    background-color: crimson;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px 40px;
+    margin: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px rgb(206, 157, 157);
+}
+.btn .col2{
+    background-color: crimson;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px 40px;
+    margin: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px rgb(206, 163, 163);
+}
+.btn .col1:hover{
+    opacity: 0.7;
+    transition: 0.2s;
+}
+.btn .col2:hover{
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.slider{
+    background-color:  white;
+   height: 72vh;
+}
+.slider div{
+    width: 80%;
+    height: 70vh;
+    padding: 6px ;
+    margin: auto;
+}
+
+ .slider div img{
+    width: 100%;
+    height: 100%;
+} 
+
+
+.text-all-centre{
+    height: 12vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    font-family: Poppins, 'Lato', sans-serif;
+    overflow: scroll;
+}
+
+.object{
+    text-align: center;
+    padding-top: 10px 0px;
+   
+}
+.cardgrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px;
+    background-color: rgb(247, 244, 244);
+    padding: 30px;
+} 
+.carditem{
+ height: 200px;
+ width: 200px;
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.bimg2{
+    width: 100%;
+    height: 80%;
+}
+.object h1{
+    color: crimson;
+  padding-top: 20px;
+}
